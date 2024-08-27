@@ -16,6 +16,7 @@ void 0 === window.tickcounter && (window.tickcounter = function() {
 		e = [],
 		e = Array.prototype.concat.apply(e, document.getElementsByClassName("tcw"));
 	e = Array.prototype.concat.apply(e, document.getElementsByClassName("tickcounter"));
+	var a = "//www.tickcounter.com/";
 	for (var n = 0; n < e.length; ++n) {
 		var i = e[n];
 		if (!i.hasAttribute("data-loaded")) {
