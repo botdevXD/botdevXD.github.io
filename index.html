@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>CGHub</title>
+</head>
+<body>
+    <!--<nav class="navbar navbar-expand-lg navbar-dark navbar_cghub">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">CGHub</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>-->
+
+      <main>
+        <div class="container col-xxl-8 px-4 py-5 cghub_top_footer">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                  <img src="assets/images/rbx_external.png" class="d-block mx-lg-auto img-fluid cghub_external_img" width="300" height="300" loading="lazy">
+                </div>
+                <div class="col-lg-4">
+                  <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 white_text">CGHUB</h1>
+                  <p class="lead white_text">External cheating software</p>
+                  <div class="d-grid gap-1 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn cghub_download_button btn-lg" onclick="downloadSoftware()">Download</button>
+                    <button type="button" class="btn cghub_download_button btn-lg" onclick="window.location = 'https://discord.gg/zFUe2Kv5eb'">Our Discord</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="element-divider"></div>
+
+        <div class="container text-center">
+            <h1 class="display-6 fw-medium text-body-emphasis lh-1 mb-5 white_text cghub_features_header_text">FEATURES</h1>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card features_card align-items-center py-1 px-3">
+                        <img src="assets/images/target_icon.png" class="card-img-top features_card_img" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title white_text">Aimbot</h5>
+                            <p class="card-text white_text">Lock onto your enemies and take them down with ease.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card features_card align-items-center py-1 px-3">
+                        <img src="assets/images/eye_icon.png" class="card-img-top features_card_img" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title white_text">ESP</h5>
+                            <p class="card-text white_text">See your enemies through walls and other objects.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card features_card align-items-center py-1 px-3">
+                        <img src="assets/images/folder_open_icon.png" class="card-img-top features_card_img" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title white_text">Config</h5>
+                            <p class="card-text white_text">Customize your cheats to your liking, and be able to load them on the go.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+<script>
+    function downloadSoftware() {
+        const FileName = "CGHub.rar";
+        const hostname = window.location.hostname;
+        const url = `https://${hostname}/${FileName}`;
+
+        window.location = url;
+    }
+</script>
