@@ -52,11 +52,10 @@ body{
 }
 
 .features_card_img{
-    border-radius: 100px !important;
+    border-radius: 8px !important;
     width: 25% !important;
     height: 25% !important;
     margin-top: 15px !important;
-    filter: grayscale(100%) !important;
 }
 
 .element-divider {
